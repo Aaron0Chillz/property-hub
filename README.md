@@ -29,21 +29,22 @@ Property Hub is a web application that allows users to browse and search for pro
 2.Install the required dependencies:
 
 ```shell
-Copy code
 pip install -r requirements.txt
-Setup the Django database:
+```
+3.Setup the Django database:
 
 ```shell
 copy code
 python manage.py migrate
-Start the Django development server:
+```
+4.Start the Django development server:
 
 ```shell
-Copy code
 python manage.py runserver
-Navigate to the provided URL in your web browser to access the Property Hub application.
+```
+5.Navigate to the provided URL in your web browser to access the Property Hub application.
 
-3.Usage
+6.Usage
 Browse through the list of properties on the home page.
 Use the search functionality to find properties based on criteria like location, price range, etc.
 Click on a property to view its detailed information.
@@ -51,7 +52,7 @@ Register an account or log in to save favorite properties and contact property o
 Contributing
 Contributions are welcome! If you'd like to contribute to Property Hub, please follow these steps:
 
-4.Fork the repository.
+7.Fork the repository.
 Create a new branch for your feature/bug fix.
 Make your changes and commit them.
 Push your changes to your forked repository.
