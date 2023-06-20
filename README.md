@@ -34,7 +34,6 @@ pip install -r requirements.txt
 3.Setup the Django database:
 
 ```shell
-copy code
 python manage.py migrate
 ```
 4.Start the Django development server:
