@@ -28,17 +28,17 @@ Property Hub is a web application that allows users to browse and search for pro
 
 2.Install the required dependencies:
 
-shell
+```shell
 Copy code
 pip install -r requirements.txt
 Setup the Django database:
 
-shell
+```shell
 copy code
 python manage.py migrate
 Start the Django development server:
 
-shell
+```shell
 Copy code
 python manage.py runserver
 Navigate to the provided URL in your web browser to access the Property Hub application.
